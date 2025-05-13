@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 100px;
+    position: sticky;
+    top: 0px;
+}
+.nav1 li button{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    height: 30px;
+    width: 100px;
+}
+.nav1 select{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(247,247,251);
+    width: 150px;
+    height: 25px;
+}
+.dv1{
+    align-items: center;
+    text-align: center;
+}
+.dv1 img {
+    width: 150px;
+    margin: 20px 0;
+}
+.dv2{
+    text-align: center;
+    align-items: center;
+}
+.dv2 p img {
+    width: 50px;
+}
+.sct1{
+    padding: 50px 100px;
+    background: linear-gradient(to bottom, white 50%,black 50%);
+}
+.sct2{
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+}
+.sct2 img{
+    width: 100%;
+}
+.sct2 h1{
+    color: rgb(214,191,251);
+    font-size: 47px;
+    padding: 30px 0px;
+}
+.sct2 p{
+    color: white;
+    font-size: 20px;
+}
+.sct3 {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+}
+.sct3 img{
+    width: 100%;
+}
+.sct3 h1{
+    font-size: 47px;
+    padding: 30px 0;
+    color:  #ffb48c;
+}
+.sct3 p{
+    color: white;
+    font-size: 20px;
+}
+.sct4{
+    padding: 100px;
+    display: flex;
+}
+.dv3 {
+    background-color: rgb(247,247,251);
+    height: 500px;
+    padding: 70px;
+    flex-basis: 60%;
+}
+.dv3 h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.dv3 p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.dv3 button{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.sct5{
+    display: flex;
+    padding: 100px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(23, 23, 58);
+    color: white;
+    padding: 25px 100px;
+}
+.nav2 img{
+    width: 130px;
+}
+.nav2 h1{
+    font-size: 30px;
+}
+.sct6{
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+}
+.dv4{
+    display: flex;
+    justify-content: space-between;
+}
+.dv4 img{
+    width: 150PX;
+}
+.dv4 div{
+    line-height: 2.4;
+    font-size: 16px;
+}
+.nav3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.nav3 img{
+    width: 30px;
+}
+#dv4{
+    position: relative;
+    top: -60px;
+}
+footer{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.336);
+    margin-top: 20px;
+}
+.sct6 hr{
+    border: 1px solid rgba(255, 255, 255, 0.322) ;
+}
